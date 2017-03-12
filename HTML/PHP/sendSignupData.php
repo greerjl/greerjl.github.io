@@ -1,0 +1,3 @@
+<?php
+	'uname' => $uname,
+?>

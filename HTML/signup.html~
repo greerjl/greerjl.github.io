@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="cache-control" content
+			="no-cache"/>
+		<link rel="stylesheet" type="text/css"
+			href="web.css"/>
+	</head>
+	<body>
+		<header>Household Utilities Manager</header>
+
+	<form id="SignUp" method="post" action="">
+		<fieldset>
+				<legend> Sign Up </legend>
+
+				<label for="username"> User name: <em>*</em> </label>
+				<input type="text" id="username" name="usnm" autofocus required>
+				<br/>
+				<br/>
+				<label for="password"> Password: (Must contain 6 or more characters and at least one number)
+					<em>*</em>
+				</label>
+				<input type="password" id="password" name="pswd" pattern="(?=.*\d).{6,}"required>
+				<br/>
+				<br/>
+			</fieldset>
+
+			<p><input type="submit" value="Log In"></p>
+			<p><input type="submit" value="Sign Up"></p>
+
+		</form>
+	</body>
+</html>
